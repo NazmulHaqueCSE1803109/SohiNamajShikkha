@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".TahajjotNamaz">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহাজ্জুদের নামাজ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহাজ্জুদ নামাজের ভুমিূমিকা"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tahajjotnamazervumica"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আল কুরআনে তাহাজ্জুদ সালাত:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alkuranetahajjotnamaz"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="হাদীসে তাহাজ্জুদ সালাত:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hadisetahajjotnamaz"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহাজ্জুদ সালাতের নিয়ম:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tahajjotnamazerniom"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহাজ্জুদ নামাজের বিধি-নিষেধ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tahajjotnamaz"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহাজ্জুদ নামাজের গুরুত্ব ও ফজিলত"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tahajjoterfojilot"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

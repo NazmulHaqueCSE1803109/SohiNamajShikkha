@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bccbde"
+    tools:context=".MuajjinerAdob">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মুয়াজ্জিনের আদাব:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/muajjineradob"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

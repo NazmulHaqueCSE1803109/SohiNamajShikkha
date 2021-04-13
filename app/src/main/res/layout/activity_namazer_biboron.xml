@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".NamazerBiboron">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামজের ভুমিকা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazerbiboron1"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামজের ইতিহাস"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazeritihas"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামজের ফরয হওয়ার শর্ত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazersorto"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামাজের শর্তাবলী"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazersortaboli"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামাজের ফরজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazerforoj"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আহকাম"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ahkam"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আরকান"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arkan"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামাজের নিয়ম"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazerniom"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামাজের নিষিদ্ধ সময়"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazernishiddosomoi"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামাজের ওয়াক্ত ও রাকাত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazeroaktorakat1"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="নাম"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="সময়"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ফরযের পূর্বে"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ফরয"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ফরযের পর"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ফযর (فجر)"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ঊষা থেকে সূর্যোদয়"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="২ রাকাত সুন্নাতে মুয়াক্কাদা"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="২ রাকাত"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="যুহর (ظهر)"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ঠিক দুপুর থেকে আসরের পূর্ব পর্যন্ত"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="৪ রাকাত সুন্নাতে মুয়াক্কাদা"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="৪ রাকাত"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="২ রাকাত সুন্নাতে মুয়াক্কাদা"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="আসর (عصر)"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="যোহরের শেষ ওয়াক্ত থেকে সূর্য হলুদ বর্ণ পূর্ব পর্যন্ত অন্য মতে সূর্যস্তের পূর্ব পর্যন্ত"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="৪ রাকাত সুন্নাতে গায়ের মুয়াক্কাদা"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="৪ রাকাত"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                    </TableRow>
+
+                    <TableRow
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="মাগরিব (مغرب)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সূর্যাস্তের পর থেকে গোধূলি পর্যন্ত"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="৩ রাকাত"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="২ রাকাত সুন্নাতে মুয়াক্কাদা"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                </TableRow>
+
+                    <TableRow
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ইশা (عشاء)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="গোধূলি থেকে অর্ধ রাত পর্যন্ত"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="৪ রাকাত সুন্নতে গায়ের মুয়াক্কাদা"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="৪ রাকাত"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="২ রাকাত সুন্নাতে মুয়াক্কাদা"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#0BAF0B"/>
+                </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="বিতর (وتر)"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ইশার পর থেকে ফজরের পূর্র পর্যন্ত"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="১ বা ৩ বা ৫ বা ৭ বা ৯ বা ১১ বা ১৩"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#0BAF0B"/>
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazeroaktorakat2"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="অন্যান্য নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/othernamaz"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ওয়াজিব নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oajibnamaz"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সুন্নাত নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sunnatnamaz"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নফল নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nofolnamaz"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জানাযার নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BAF0B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/janajanamaz"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

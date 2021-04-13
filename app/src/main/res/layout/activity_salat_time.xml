@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006400"
+    tools:context=".SalatTime">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edittexttv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="Search Location"
+                android:textColorHint="#010120"
+                android:textStyle="bold"
+                />
+            <Button
+                android:id="@+id/searchtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textColor="#CDCD10"
+                android:backgroundTint="#03039F"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/locationtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="myLocation : "
+                android:textColor="#CDCD10"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/datetv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="myDate : "
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#CDCD10"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prayer Timings"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#03039F"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fajr : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/fajrtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fajr : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunrise : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/sunrisetv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunrise : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dhuhr : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/dhuhrtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dhuhr : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asr : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/asrtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asr : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunset : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/sunsettv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunset : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maghrib : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/magribtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maghrib : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isha : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/ishatv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isha : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Midnight : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/midnighttv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Midnight : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imsak : "
+                android:textStyle="bold"
+                android:textColor="#010120"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/imsaktv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imsak : "
+                android:textColor="#CDCD10"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Pobitrota">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/pobitrota1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পবিত্রতা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+            />
+
+            <Button
+                android:id="@+id/pobitrotaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="পবিত্রতার মাসাআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#DA1B2BD6"
+                />
+
+            <Button
+                android:id="@+id/paniid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="পানির মাসাআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#DA1B2BD6"
+                />
+
+            <Button
+                android:id="@+id/pobitrotarguruttoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="পবিত্রতা অর্জনের গুরুত্ব ও প্রয়োজনীয়তা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#DA1B2BD6"
+                />
+
+            <Button
+                android:id="@+id/ojuid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ওযুর সম্পর্কিত মাসআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#DA1B2BD6"
+                />
+
+            <Button
+                android:id="@+id/gosolermaslaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="গোসল সম্পর্কিত মাসআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#DA1B2BD6"
+                />
+
+            <Button
+                android:id="@+id/taiamumid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তায়াম্মুম সম্পর্কিত মাসআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#DA1B2BD6"
+                />
+
+            <Button
+                android:id="@+id/haejonifasid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হায়েয ও নিফাস সম্পর্কিত মাসআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#DA1B2BD6"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

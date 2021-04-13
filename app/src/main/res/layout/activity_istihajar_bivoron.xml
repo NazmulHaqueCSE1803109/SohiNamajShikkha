@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bccbde"
+    tools:context=".IstihajarBivoron">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ইস্তিহাযা সম্পর্কিত মাসআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haejonifas20"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ইস্তিহাযা চেনার উপায় :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haejonifas21"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(ক) প্রত্যেক মাসে নির্দিষ্ট সময়ে হায়েয হওয়া : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haejonifas22"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(খ) রক্তের পার্থক্য বুঝতে পারা :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haejonifas23"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(গ) কোন আলামত না থাকা :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haejonifas24"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

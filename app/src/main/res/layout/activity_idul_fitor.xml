@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".IdulFitor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulfitor"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# ঈদুল ফিতরের তাকবীর:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulfitorertakbir"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# ঈদুল ফিতরের নামাজের নিয়ত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulfitorerniot"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# ঈদুল ফিত্‌রের নামাজ পড়ার নিয়ম:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulfitorerniom"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঈদের দিনের ১৩ টি সুন্নত, যা নবীজি (স:) করতেন:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulfitorersunnat"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# ঈদুল ফিতরের গুরুত্ব ও তাৎপর্য :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulfitorerfojilot"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

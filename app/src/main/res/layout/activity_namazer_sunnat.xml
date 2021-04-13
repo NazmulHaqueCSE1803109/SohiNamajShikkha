@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bccbde"
+    tools:context=".NamazerSunnat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নামাজের সুন্নাত সমূহ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namazersunnatsomuho"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

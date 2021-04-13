@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".ZakatCalculator">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="যাকাতের পরিমানঃ "
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#061F81"/>
+                <TextView
+                    android:id="@+id/zakatamountid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorPrimary"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/takarporimanid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="দয়া করে আপনার মোট সম্পদের পরিমান টাকাতে লিখুন"
+                android:textColorHint="#061F81"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/hisabid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="হিসাব করুন"
+                android:textColorHint="#061F81"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="শুধু মাত্র সোনা, রূপা,কিংবা সোনা-রুপার অলংকার, নগদ অর্থ , ব্যাংক জমা, শেয়ার, ব্যাংক নোট, স্টক, ব্যাবসায়িক পণ্য, ঘোড়া এগুলা বিষয়ের জন্য উপরের হিসাবটি গ্রহণযোগ্য হবে। অন্যান্য বিষয়ে জানতে চাইলে দয়া করে নিচের বাটন চাপুন।"
+                android:textSize="20sp"
+                android:textColor="#061F81"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/jakatprodanid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="যকাত গননা ও প্রদানের নিয়ম"
+                android:textColorHint="#061F81"
+                android:backgroundTint="@color/colorAccent"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

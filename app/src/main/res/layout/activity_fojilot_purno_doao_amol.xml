@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bccbde"
+    tools:context=".FojilotPurnoDoaoAmol">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ফজিলতপূর্ণ কয়েকটি দোয়া ও আমল"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doa"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(১) বিভিন্ন ধরনের বালা-মুসিবত দূর করার আমল:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doa1"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(২) শিশুর জিদ দূর করার আমল:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doa2"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(৩) শ্রেষ্ঠ দোয়া:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doa3"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(৪) দ্বীনদার স্ত্রী লাভের আমল:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doa4"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(৫) রিজিক বৃদ্ধির আমল:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doa5"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(৬) স্মৃতিশক্তি বৃদ্ধির আমল:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doa6"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(৮) আয়াতুল কুরসি:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atulkurci"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

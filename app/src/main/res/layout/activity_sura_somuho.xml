@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".SuraSomuho">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/suraalfatihaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা আল-ফাতিহা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/suraalmaunid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা  আল-মাউন"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/suraannasorid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা আন - নাছর"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/suraallahabid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা আল - লাহাব"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/suraalikhlasid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা আল - ইখলাস"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                /><Button
+            android:layout_marginTop="3dp"
+            android:id="@+id/suraalfalakid"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="সূরা আল - ফালাক"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="#061F81"
+            />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/suraannasid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা আন - নাস"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/suraiasinid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা ইয়া-সীন"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+            />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/suraarrahmanid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সূরা আর-রাহমান"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

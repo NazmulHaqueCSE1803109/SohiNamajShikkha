@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Counter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        
+        <TextView
+            android:id="@+id/textid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="মোট হিসাবঃ 0"
+            android:textColor="#061F81"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/countid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#061F81"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/clearid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textColor="#061F81"
+        android:backgroundTint="@color/colorAccent"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপরোক্ত প্রক্রিয়ার দ্বারা ইসলামিক বিভিন্ন ধরনের তাসবিহ সহ আরও অনেক কিছু গননা করা যায়। গননা করার জন্য কাউন্ট বাটন করতে হবে, গননা শেষ করার জন্য ক্লিয়ার বাটন এ ক্লিক করতে হবে। প্রতিবার গননার সময় উপরোক্ত কথাগুল লক্ষ্য করতে হবে।"
+        android:textSize="18sp"
+        android:textColor="#061F81"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".BivinnoNamaz">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nofolnamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="নফল নামাজের বিবরণ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/idulfitorid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ঈদুল ফিতর নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/idulajhaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ঈদুল আযহা নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/jummarnamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="জুম্মার  নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/tahajjotnamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তাহাজ্জুদের নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/salatultasbihid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সালাতুল তাসবীহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/ishraqernamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ইশরাকের নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/sasternamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="চাশতের নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/tarabihnamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তারাবীর নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/beterernamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="বেতরের নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/istikhajarnamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ইস্তিখারার নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/arokichunamazid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="আরও কিছু নামাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

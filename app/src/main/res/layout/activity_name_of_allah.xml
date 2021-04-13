@@ -1,0 +1,4565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88bb88"
+    android:stretchColumns="3"
+    tools:context=".NameOfAllah">
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/bh"
+           android:layout_column="1"
+            android:text="আল্লাহর নাম সম্পর্কিত হাদিসসমূহ"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+  <TableRow
+
+    android:layout_marginTop="20dp"
+    >
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_span="4"
+        android:text="আল্লাহর পবিত্র নামসমূহ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0EEC04"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        />
+
+  </TableRow>
+
+<ScrollView
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  >
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TableRow
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+
+                    android:text="#"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আরবি"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="বাংলা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="বাংলা অর্থ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الله"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল্লাহ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল্লাহ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االرحمن"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আর রাহমান"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম দয়ালু"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االرحيم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আর-রাহ়ীম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অতিশয়-মেহেরবান"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االملك"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মালিক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সর্বকর্তৃত্বময়"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االقدوس"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-কুদ্দুস"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নিষ্কলুষ, অতি পবিত্র"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االسلام"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আস-সালাম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নিরাপত্তা-দানকারী, শান্তি-দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االمؤمن"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মু'মিন"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নিরাপত্তা ও ঈমান দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االمهيمن"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুহাইমিন"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরিপূর্ন রক্ষণাবেক্ষণকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االعزيز"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আ'জীজ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরাক্রমশালী, অপরাজেয়"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="االجبار"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-জাব্বার"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="দুর্নিবার"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المتكبر"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুতাকাব্বিইর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নিরঙ্কুশ শ্রেষ্ঠত্বের অধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الخالق"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-খালিক্ব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সৃষ্টিকর্তা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="البارئ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সঠিকভাবে সৃষ্টিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المصور"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুছউইর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আকৃতি-দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الغفار"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-গফ্ফার"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম ক্ষমাশীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="القهار"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ক্বাহার"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="কঠোর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الوهاب"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়াহ্হাব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সবকিছু দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الرزاق"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আর-রজ্জাক্ব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="রিযিকদাতা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="১৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الفتاح"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল ফাত্তাহ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="বিজয়দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="العليم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আ'লীম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সর্বজ্ঞ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="القابض"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ক্ববিদ্ব'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নিয়ন্ত্রণকারী, সরল পথ প্রদর্শনকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الباسط"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বাসিত"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="প্রশস্তকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الخافض"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-খফিদ্বু"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অবনতকারী
+      (কাফির ও মুশরিকদের)"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الرافع"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আর-রফীই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="উন্নতকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المعز"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুই'জ্ব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সম্মান-দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المذل	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুদ্বি'ল্লু"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="(অবিশ্বাসীদের) বেইজ্জতকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="السميع"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আস্-সামিই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সর্বশ্রোতা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="البصير"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বাছীর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সর্ববিষয়-দর্শনকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="২৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحكم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হা'কাম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অটল বিচারক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="العدل"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আ'দল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরিপূর্ণ-ন্যায়বিচারক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow><TableRow
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+
+                android:text="৩১"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+
+                android:text="اللطيف"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+
+                android:text="আল-লাতীফ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+
+                android:text="সকল-গোপন-বিষয়ে-অবগত"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="20dp"
+                />
+
+        </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الخبير"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-খ'বীর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সকল ব্যাপারে জ্ঞাত"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحليم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হা'লীম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="	অত্যন্ত ধৈর্যশীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="العظيم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আ'জীম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সর্বোচ্চ-মর্যাদাশীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الغفور"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-গফুর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম ক্ষমাশীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الشكور"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আশ্-শাকুর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="গুনগ্রাহী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="العلي	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আ'লিইউ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="উচ্চ-মর্যাদাশীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الكبير"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-কাবিইর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সুমহান"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৩৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحفيظ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হা'ফীজ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সংরক্ষণকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المقيت"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুক্বীত"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সকলের জীবনোপকরণ-দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحسيب"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হাসীব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="হিসাব-গ্রহণকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الجليل	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-জালীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম মর্যাদার অধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الكريم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-কারীম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="	সুমহান দাতা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الرقيب"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আর-রক্বীব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="তত্ত্বাবধায়ক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المجيب"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুজীব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="জবাব-দানকারী, কবুলকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الواسع"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়াসি'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সর্ব-ব্যাপী, সর্বত্র-বিরাজমান"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحكيم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হাকীম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম-প্রজ্ঞাময়"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الودود"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়াদুদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="(বান্দাদের প্রতি) সদয়"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৪৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المجيد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মাজীদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="	সকল-মর্যাদার-অধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الباعث"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বাই'ছ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পুনুরুজ্জীবিতকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الشهيد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আশ্-শাহীদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পসর্বজ্ঞ-স্বাক্ষী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحق	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হা'ক্ব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম সত্য"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الوكيل"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়াকিল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম নির্ভরযোগ্য কর্ম-সম্পাদনকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="القوي	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বাই'ছ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পুনুরুজ্জীবিতকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="القوي	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মাতীন"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সুদৃঢ়"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الولي	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়ালিইউ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অভিভাবক ও সাহায্যকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحميد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হা'মীদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="	সকল প্রশংসার অধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المحصي"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুহছী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সকল সৃষ্টির ব্যপারে অবগত"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৫৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المبدئ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুব্দি"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="প্রথমবার-সৃষ্টিকর্তা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المعيد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুঈ'দ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পুনরায়-সৃষ্টিকর্তা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المحيي"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুহ'য়ী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="জীবন-দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المميت"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুমীত"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="মৃত্যু-দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الحي"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হাইয়্যু"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="চিরঞ্জীব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="القيوم	"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ক্বাইয়্যুম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="	সমস্তকিছুর ধারক ও সংরক্ষণকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الواجد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়াজিদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অফুরন্ত ভান্ডারের অধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الماجد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মাজিদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="শ্রেষ্ঠত্বের অধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الواحد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়াহি'দ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="এক ও অদ্বিতীয়"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الصمد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আছ্-ছমাদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অমুখাপেক্ষী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৬৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="القادر"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ক্বদির"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সর্বশক্তিমান"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المقتدر"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুক্ব্তাদির"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নিরঙ্কুশ-সিদ্বান্তের-অধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المقدم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুক্বদ্দিম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নঅগ্রসারক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المؤخر"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুয়াক্খির"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অবকাশ দানকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الأول"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আউয়াল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অনাদি"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الأخر"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আখির"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অনন্ত, সর্বশেষ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الظاهر"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আজ-জ'হির"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নসম্পূর্নরূপে-প্রকাশিত"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الباطن"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বাত্বিন"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="দৃষ্টি হতে অদৃশ্য"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الوالي"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়ালি"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সমস্ত-কিছুর-অভিভাবক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المتعالي"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুতাআ'লি"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="নসৃষ্টির গুনাবলীর উর্দ্ধে"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৭৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="البر"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বার্"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম-উপকারী, অণুগ্রহশীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="التواب"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আত্-তাওয়াব"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="তাওবার তাওফিক দানকারী এবং কবুলকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المنتقم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুনতাক্বিম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="প্রতিশোধ-গ্রহণকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="العفو"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-আ'ফঊ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম-উদার"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الرؤوف"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আর-রউফ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম-স্নেহশীল"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="مالك الملك"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="মালিকুল-মুলক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সমগ্র জগতের বাদশাহ্"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="ذو الجلال والإكرام"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="যুল-জালালি-ওয়াল-ইকরাম"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="মহিমান্বিত ও দয়াবান সত্তা"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المقسط"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুক্ব্সিত"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="হকদারের হক-আদায়কারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الجامع"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-জামিই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="একত্রকারী, সমবেতকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الغني"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-গণিই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অমুখাপেক্ষী ধনী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৮৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المغني"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মুগণিই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম-অভাবমোচনকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯০"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="المانع"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-মানিই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অকল্যাণরোধক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯১"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الضار"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আয্-যর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="ক্ষতিসাধনকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯২"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="النافع"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আন্-নাফিই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="কল্যাণকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯৩"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="النور"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আন্-নূর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পরম-আলো"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯৪"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الهادي"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-হাদী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="পথ-প্রদর্শক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯৫"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="البديع"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বাদীই'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অতুলনীয়"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯৬"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الباقي"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-বাক্বী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="চিরস্থায়ী, অবিনশ্বর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯৭"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الوارث"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আল-ওয়ারিস'"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="উত্তরাধিকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯৮"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الرشيد"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আর-রাশীদ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="সঠিক পথ-প্রদর্শক"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+
+                    android:text="৯৯"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="الصبور"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="আস-সবুর"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+                <TextView
+
+                    android:text="অত্যধিক ধৈর্যধারণকারী"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_height="20dp"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>
+
+</TableLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Oju">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/ojurbornonaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ওযুর বর্ণনা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/ojurniotid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ওযুর নিয়ত ও দোয়া সমূহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="2dp"
+                />
+            <Button
+                android:id="@+id/ojurfojilotid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ওযুর ফযিলত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="2dp"
+                />
+            <Button
+                android:id="@+id/ojurforojid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ওযুর ফরয সমূহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="2dp"
+                />
+            <Button
+                android:id="@+id/ojursunnatid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ওযুর সুন্নাত ও মুস্তাহাব সমুহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="2dp"
+                />
+            <Button
+                android:id="@+id/ojuvonggoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ওযু ভঙ্গের কারন সমূহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="2dp"
+                />
+            <Button
+                android:id="@+id/ojurniomid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="চিত্রসহ ওযুর নিয়ম"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="2dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

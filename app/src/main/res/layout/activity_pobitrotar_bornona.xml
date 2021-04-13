@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".PobitrotarBornona">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহারাত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057105"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pobitrota1"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহারাতের প্রকারভেদঃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#067E06"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আত্মিক তাহারাতঃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#058805"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pobitrota2"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বাহ্যিক তাহারাতঃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#058805"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pobitrota3"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="১। নাপাকি অবস্থা থেকে পবিত্রতাঃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#058805"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pobitrota4"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="২। নাজাসাত থেকে পবিত্রতা অর্জনঃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#058805"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pobitrota5"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

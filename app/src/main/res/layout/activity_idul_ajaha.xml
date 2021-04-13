@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".IdulAjaha">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঈদুল আযহা নামাযের নিয়ত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:id="@+id/idulajharniotid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulajharniot"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঈদুল আযহা নামাযের নিয়ম:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulajharniom"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঈদুল আযহা নামাযের সুন্নাত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulajharsunnat"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঈদুল আযহা নামাযের বর্জনীয় কাজ:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulajharborjoniokaj"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঈদুল আযহা নামাযের মাসায়েল:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulajharmasael"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঈদুল আযহা নামাযের ফযিলত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#089708"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idulajharfojilot"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OjurSunnat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ওযুর সুন্নাত সমুহঃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA30B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ojursunnat1"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="যেসব কারণে অজু সুন্নত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA30B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ojursunnat2"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ওযুর মুস্তাহাব সমুহঃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA30B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ojurmustahab1"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="যে যে অবস্থায় অজু মুস্তাহাব:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA30B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ojurmustahab2"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

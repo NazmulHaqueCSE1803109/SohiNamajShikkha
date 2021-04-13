@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BivinnoProkarerHojj">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/ifradid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="প্রথম প্রকার হজ্জে ইফরাদ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/kibranid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="দ্বিতীয় প্রকার হজ্জে কি্বরান"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/tamattuid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তৃতীয় প্রকার হজ্জে তামাত্তু"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

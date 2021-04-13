@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bccbde"
+    tools:context=".JummarNamazerNiot">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jumma"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জুম্মার নামাজের রাকাতের সংখ্যা:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jummarrakat"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="চার রাকাত কাবলাল জুম্মার নিয়ত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kablaljummarniot"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জুম্মার দুই রাকাত ফরজ নামাজের নিয়ত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jummarforojerniot"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="চার রাকাত বাদাল জুম্মার নিয়ত:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/badaljummarniot"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জুম্মার নামাজ যাদের উপর ফরজ ও যাদের উপর নয়:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0BA50B"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jummarnamazjaderuporforoj"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

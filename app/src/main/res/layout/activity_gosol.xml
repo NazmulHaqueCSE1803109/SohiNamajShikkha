@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Gosol">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/gosolerbornonaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="গোসলের বর্ণনা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+            android:id="@+id/gosolforojhoarkaronid"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="গোসল ফরয ও ওয়াজিব হওয়ার কারন"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="5dp"
+            />
+            <Button
+                android:id="@+id/gosolerforojsunnatid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="গোসলের ফরজ,সুন্নাত ও ওয়াজিব"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/forojgosolerniomid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ফরয গোসলের নিয়ম"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/sunnahonujaigosolid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সুন্নাহ অনুযায়ী গোসল করার পদ্ধতি"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/mustahabgosolid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="যখন গোসল করা মুস্তাহাব"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/junubiid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="জুনুবী ব্যক্তির ওপর যা হারাম ও মাকরুহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

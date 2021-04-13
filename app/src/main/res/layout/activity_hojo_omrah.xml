@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".HojoOmrah">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/hojerbornonaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হজ্জের বর্ণনা ও ইতিহাস"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/hojoomrahorniotid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হজ্জ ও ওমরাহর নিয়ত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/taoafosairid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তাওয়াফ ও সায়ীর"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/ihramobsthainishiddokajid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ইহরাম অবস্থায় নিষিদ্ধ কাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/hojerforojsunnatoajibid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হজ্জের ফরয,সুন্নাত ও ওয়াজিব"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/bivinnoprokarerhojid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="বিভিন্ন প্রকারের হজ্জ ও করনীয় সমূহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/hojerdingulatekoroniosomuhoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হজ্জের দিনগুলোতে করনীয় সমূহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/bodlihojokichukotha"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="বদলী হজ্জ ও কিছু কথা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/hojerguruttoofojilotid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হজ্জের গুরুত্ব ও ফযিলত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/forojhojpalonnakorarshastiid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ফরয হজ্জ পালন না করার শাস্তি"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

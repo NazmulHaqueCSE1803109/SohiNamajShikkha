@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bccbde"
+    tools:context=".AroNamaz">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহিয়াতুল অজুর দু রাকাত নামাজ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tahiatulojunamaz"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাহিয়াতুল মসজিদের নামাজ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tahiatulnamaz"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুস সফর এবং দুখুলিল মানজিল ও
+
+                                             খুরুজুল মানজিলের নামাজ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatulsofor"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুল হাজাত"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatulhazat"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতু কাজায়িদ দাঈন বা ঋণ পরিশোধের নামাজ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatukajiadi"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুল ফাকা"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatulfaka"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুস শোকর"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatussokor"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুত তাওবা"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatuttoba"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুল মাতার"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatulmatar"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুল নাউম"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatulnaum"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সালাতুল সাকরাতুল মউত"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salatulmaut"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

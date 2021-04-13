@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#221818DA"
+    tools:context=".AboutInventor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nazmul"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Md Nazmul Haque"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Institute: Rajshahi University Of Engineering And Technology (RUET)"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department: Computer Science And Engineering (CSE)"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-Mail: nazmulhaque1803109@gmail.com"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

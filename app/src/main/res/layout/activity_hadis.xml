@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Hadis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:id="@+id/hadissomuhoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হাদিস শরীফ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/islamicbookid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ইসলামিক বইসমূহ"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/belafurabarageid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="বেলা ফুরাবার আগে"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="@string/hadis"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

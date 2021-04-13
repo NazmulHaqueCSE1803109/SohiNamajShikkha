@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/shareid"
+        android:title="Share This App"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/feedbackid"
+        android:title="Feedback"
+        android:icon="@drawable/ic_feedback"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/moreid"
+        android:title="More Apps"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/rateid"
+        android:title="Rating This App"
+        android:icon="@drawable/ic_rate"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/appid"
+        android:title="About App"
+        android:icon="@drawable/ic_apps"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/inventorid"
+        android:title="About Inventor"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="never"
+        />
+</menu>

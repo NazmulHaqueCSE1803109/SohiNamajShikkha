@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".NofolNamazerBiboron">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নফল নামাজ"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nofolnamazerbiboron"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নফল নামাজের প্রকার:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nofolnamazerprokar"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নফল নামাজের নিষিদ্ধ সময়:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nofolnamazernishiddhosomoi"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নফল নামাজের নিয়ত:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nofolnamazerniot"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নফল নামাজের সূরা কিরাআত:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nofolnamazersurakirat"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নফল নামাজের ফজিলত:"
+                android:textColor="#0BA50B"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nofolnamazerfojilot"
+                android:textSize="17sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

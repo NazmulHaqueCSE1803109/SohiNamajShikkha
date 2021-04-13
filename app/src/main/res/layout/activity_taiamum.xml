@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Taiamum">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তায়াম্মুম"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0BA50B"
+                />
+            <Button
+                android:id="@+id/taiamumbiboronid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তায়াম্মুমের বিবরণ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:id="@+id/taiamumershortoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তায়াম্মুমের শর্ত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+            />
+            <Button
+                android:id="@+id/taiamumerforojid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তায়াম্মুমের ফরজ,সুন্নাত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:id="@+id/taiamumernostoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তায়াম্মুমের নিয়ম ও নষ্ট হওয়ার কারন"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:id="@+id/taiamumermaslaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="তায়াম্মুমের বিভিন্ন মাসআলা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

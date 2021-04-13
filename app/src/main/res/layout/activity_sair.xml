@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Sair">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সায়ীর নিয়ম"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sairniom"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সায়ীর সহজ দোয়া"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sairdoa1"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সায়ীর কুরআনী দোয়া"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sairdoa2"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

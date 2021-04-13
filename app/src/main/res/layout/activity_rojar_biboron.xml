@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".RojarBiboron">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/rojaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="রোজা,রোজার উৎপত্তি ও প্রকারভেদ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/rojaritihasid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="রোজার ইতিহাস"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/rojaruddeshshoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="রোজার উদ্দেশ্য"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/rojarshortoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="রোজার শর্ত"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/rojavongoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="রোজা ভঙ্গ হলে যা করতে হবে"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/kajarojaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="যেসব কারণে শুধু কাজা আদায় করতে হয়"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+            />
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/rojarfojilotid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="রোজার ফজিলত ও তাৎপর্য"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

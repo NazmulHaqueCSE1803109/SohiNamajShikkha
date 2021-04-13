@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".BibinnoGunahsomuho">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/kobiragunahid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="কবীরা গুনাহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:id="@+id/procolitogunahid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সমাজে প্রচলিত কবীরা গুনাহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:id="@+id/shirokgunahid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="শিরক গোনাহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"
+                />
+            <Button
+                android:id="@+id/shirokgunahsomuhoid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="সমাজে প্রচলিত শিরক গোনাহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

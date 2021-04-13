@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".HaejoNifas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/haejnifasistihajaid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হায়েয,নিফাস ও ইস্তিহাযার ভূমিকা"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/haejerharamkajid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="হায়েয অবস্থায় হারাম কাজ সমূহ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/nifaserbiboronid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="নিফাসের বিবরণ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+            <Button
+                android:id="@+id/istihajarbiboronid"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ইস্তিহাযার বিবরণ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="#061F81"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".HadisName">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="উৎস এবং ইতিহাস"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#057A0A"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an2"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ইসলামিক পরিভাষায় আল্লাহর সর্বশ্রেষ্ঠ নাম:"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#057A0A"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an4"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="এই নামগুলো দ্বারা কোনো ব্যক্তির নামকরণ"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/an6"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

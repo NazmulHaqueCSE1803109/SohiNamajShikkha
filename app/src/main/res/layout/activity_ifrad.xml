@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bccbde"
+    tools:context=".Ifrad">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="প্রথম প্রকার হজ্জে ইফরাদ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ifrad"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="হজ্জ ও ওমরাহর করনীয়"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="১ম প্রকার হজ্জে ইফরাদের ১১টি জরুরী কাজ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#057A0A"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ifraderkaj"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
