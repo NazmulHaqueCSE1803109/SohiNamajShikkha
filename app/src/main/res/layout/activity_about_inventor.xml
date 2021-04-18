@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Institute: Rajshahi University Of Engineering And Technology (RUET)"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="10dp"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Department: Computer Science And Engineering (CSE)"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="10dp"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="E-Mail: nazmulhaque1803109@gmail.com"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
                 android:textSize="20sp"
