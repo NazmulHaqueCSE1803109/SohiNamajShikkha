@@ -96,7 +96,6 @@
         <activity android:name=".IshraqerNamaz" />
         <activity android:name=".SalatulTasbih" />
         <activity android:name=".TahajjotNamaz" />
-        <activity android:name=".IdulajharNamaz" />
         <activity android:name=".NofolNamazerBiboron" />
         <activity android:name=".JanajaNamaj" />
         <activity android:name=".BibinnoGunahsomuho" />
